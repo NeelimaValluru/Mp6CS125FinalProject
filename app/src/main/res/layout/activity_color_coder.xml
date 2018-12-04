@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ec0819"
+    tools:context=".ColorCoder"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="28dp"
+        android:text="Red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Blue"
+        app:layout_constraintStart_toStartOf="@+id/red"
+        app:layout_constraintTop_toBottomOf="@+id/red" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Green"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toBottomOf="@+id/blue" />
+
+    <Button
+        android:id="@+id/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="Black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Purple"
+        app:layout_constraintStart_toStartOf="@+id/black"
+        app:layout_constraintTop_toBottomOf="@+id/black" />
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Yellow"
+        app:layout_constraintStart_toStartOf="@+id/purple"
+        app:layout_constraintTop_toBottomOf="@+id/purple" />
+
+</android.support.constraint.ConstraintLayout>
